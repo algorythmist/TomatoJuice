@@ -1,9 +1,9 @@
 package com.tecacet.tomatoj.model;
 
+import com.google.api.client.util.Key;
+
 import java.util.List;
 import java.util.Map;
-
-import com.google.api.client.util.Key;
 
 //TODO toString
 public class Movie {
@@ -54,60 +54,60 @@ public class Movie {
     private Map<String, String> alternateIds;
 
     public int getId() {
-	return id;
+        return id;
     }
 
     public String getTitle() {
-	return title;
+        return title;
     }
 
     public List<String> getGenres() {
-	return genres;
+        return genres;
     }
 
     public int getYear() {
-	return year;
+        return year;
     }
 
     public String getMpaaRating() {
-	return mpaaRating;
+        return mpaaRating;
     }
 
     public Rating getRating() {
-	return rating;
+        return rating;
     }
 
     public ReleaseDate getReleaseDate() {
-	return releaseDate;
+        return releaseDate;
     }
 
     public String getCriticsConsensus() {
-	return criticsConsensus;
+        return criticsConsensus;
     }
 
     public String getSynopsis() {
-	return synopsis;
+        return synopsis;
     }
 
     public Posters getPosters() {
-	return posters;
+        return posters;
     }
 
     public Links getLinks() {
-	return links;
+        return links;
     }
 
     public List<Actor> getAbridgedCast() {
-	return abridgedCast;
+        return abridgedCast;
     }
 
     public Map<String, String> getAlternateIds() {
-	return alternateIds;
+        return alternateIds;
     }
 
     @Override
     public String toString() {
-	return String.format("%s (%d)", title, year);
+        return String.format("%s (%d)", title, year);
     }
 
 }

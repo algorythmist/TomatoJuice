@@ -5,12 +5,12 @@ public enum ReviewType {
 
     private final String name;
 
-    private ReviewType(String s) {
-	name = s;
+    ReviewType(String s) {
+        name = s;
     }
-    
+
     public String toString() {
-	return name;
+        return name;
     }
 
 }

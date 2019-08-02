@@ -18,23 +18,23 @@ public class Clip {
     private Links links;
 
     public String getTitle() {
-	return title;
+        return title;
     }
 
     public int getDuration() {
-	return duration;
+        return duration;
     }
 
     public String getThumbnail() {
-	return thumbnail;
+        return thumbnail;
     }
 
     public Links getLinks() {
-	return links;
+        return links;
     }
 
     @Override
     public String toString() {
-	return title;
+        return title;
     }
 }

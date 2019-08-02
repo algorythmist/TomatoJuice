@@ -26,31 +26,31 @@ public class Review {
     private String originalScore;
 
     public String getCritic() {
-	return critic;
+        return critic;
     }
 
     public String getDate() {
-	return date;
+        return date;
     }
 
     public String getFreshness() {
-	return freshness;
+        return freshness;
     }
 
     public String getPublication() {
-	return publication;
+        return publication;
     }
 
     public String getQuote() {
-	return quote;
+        return quote;
     }
 
     public Links getLinks() {
-	return links;
+        return links;
     }
 
     public String getOriginalScore() {
-	return originalScore;
+        return originalScore;
     }
 
 }

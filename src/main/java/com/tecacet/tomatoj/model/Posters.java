@@ -18,25 +18,25 @@ public class Posters {
     private String original;
 
     public String getThumbnail() {
-	return thumbnail;
+        return thumbnail;
     }
 
     public String getProfile() {
-	return profile;
+        return profile;
     }
 
     public String getDetailed() {
-	return detailed;
+        return detailed;
     }
 
     public String getOriginal() {
-	return original;
+        return original;
     }
 
     @Override
     public String toString() {
-	return Objects.toStringHelper(this.getClass())
-		.add("thumbnail", thumbnail).add("profile", profile)
-		.add("detail", detailed).toString();
+        return Objects.toStringHelper(this.getClass())
+                .add("thumbnail", thumbnail).add("profile", profile)
+                .add("detail", detailed).toString();
     }
 }

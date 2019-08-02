@@ -1,8 +1,8 @@
 package com.tecacet.tomatoj.model;
 
-import java.util.List;
-
 import com.google.api.client.util.Key;
+
+import java.util.List;
 
 public class Actor {
 
@@ -16,19 +16,19 @@ public class Actor {
     private List<String> characters;
 
     public String getId() {
-	return id;
+        return id;
     }
 
     public String getName() {
-	return name;
+        return name;
     }
 
     public List<String> getCharacters() {
-	return characters;
+        return characters;
     }
 
     @Override
     public String toString() {
-	return name;
+        return name;
     }
 }

@@ -17,19 +17,19 @@ public class Rating {
     private int audienceScore;
 
     public String getCriticsRating() {
-	return criticsRating;
+        return criticsRating;
     }
 
     public int getCriticsScore() {
-	return criticsScore;
+        return criticsScore;
     }
 
     public String getAudienceRating() {
-	return audienceRating;
+        return audienceRating;
     }
 
     public int getAudienceScore() {
-	return audienceScore;
+        return audienceScore;
     }
 
 }

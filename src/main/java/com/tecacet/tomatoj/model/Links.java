@@ -23,27 +23,27 @@ public class Links {
     private String similar;
 
     public String getSelf() {
-	return self;
+        return self;
     }
 
     public String getAlternate() {
-	return alternate;
+        return alternate;
     }
 
     public String getCast() {
-	return cast;
+        return cast;
     }
 
     public String getClips() {
-	return clips;
+        return clips;
     }
 
     public String getReview() {
-	return review;
+        return review;
     }
 
     public String getSimilar() {
-	return similar;
+        return similar;
     }
 
 }
