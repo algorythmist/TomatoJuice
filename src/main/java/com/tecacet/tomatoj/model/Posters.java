@@ -1,7 +1,6 @@
 package com.tecacet.tomatoj.model;
 
 import com.google.api.client.util.Key;
-import com.google.common.base.Objects;
 
 public class Posters {
 
@@ -33,10 +32,4 @@ public class Posters {
         return original;
     }
 
-    @Override
-    public String toString() {
-        return Objects.toStringHelper(this.getClass())
-                .add("thumbnail", thumbnail).add("profile", profile)
-                .add("detail", detailed).toString();
-    }
 }
